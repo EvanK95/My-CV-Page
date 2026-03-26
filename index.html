@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Evangelos Kotsis — System Administrator</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <div class="nav-logo">EK<span class="accent">.</span></div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="about">
+    <div class="hero-grid-overlay"></div>
+    <div class="hero-content">
+      <div class="hero-tag mono">// system administrator & cloud security</div>
+      <h1 class="hero-name">Evangelos<br><span class="name-accent">Kotsis</span></h1>
+      <p class="hero-sub">
+        Bridging on-premise infrastructure and cloud security.<br>
+        Working across <span class="accent-text">Piraeus Bank</span> & <span class="accent-text">Uni Systems</span>,<br>
+        with a focus on Azure, IAM, and cybersecurity.
+      </p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn-primary">View Projects</a>
+        <a href="#contact" class="btn-ghost">Get In Touch</a>
+      </div>
+      <div class="hero-certs mono">
+        <span>AZ-900</span><span class="sep">·</span>
+        <span>SC-900</span><span class="sep">·</span>
+        <span>Google Cybersecurity</span>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="terminal-box">
+        <div class="terminal-bar">
+          <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+          <span class="terminal-title mono">whoami.sh</span>
+        </div>
+        <div class="terminal-body mono" id="terminal-text"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section" id="skills">
+    <div class="section-header">
+      <span class="section-tag mono">01 /</span>
+      <h2 class="section-title">Skills & Certifications</h2>
+    </div>
+    <div class="skills-grid">
+      <div class="skill-card" data-delay="0">
+        <div class="skill-icon">☁️</div>
+        <h3>Cloud & Azure</h3>
+        <ul>
+          <li>Microsoft Azure (Entra ID)</li>
+          <li>Azure Hybrid Infrastructure</li>
+          <li>Azure Sentinel / SIEM</li>
+          <li>Microsoft Defender</li>
+        </ul>
+      </div>
+      <div class="skill-card" data-delay="1">
+        <div class="skill-icon">🖥️</div>
+        <h3>Systems Administration</h3>
+        <ul>
+          <li>Windows Server (AD, DNS, DHCP)</li>
+          <li>Linux (RHEL, Ubuntu)</li>
+          <li>VMware vSphere / Hyper-V</li>
+          <li>Citrix (large-scale)</li>
+        </ul>
+      </div>
+      <div class="skill-card" data-delay="2">
+        <div class="skill-icon">🔐</div>
+        <h3>Security & IAM</h3>
+        <ul>
+          <li>Identity & Access Management</li>
+          <li>MFA / RBAC</li>
+          <li>Splunk & Sentinel</li>
+          <li>TryHackMe (Web Pentesting)</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="certs-section">
+      <h3 class="certs-title mono">// certifications</h3>
+      <div class="certs-list">
+        <a class="cert-badge" href="https://learn.microsoft.com/api/credentials/share/en-us/EvangelosKotsis-8289/C8FB2ACC7F8B3FB1?sharingId=A749E7CC27F72813" target="_blank" rel="noopener">
+          <div class="cert-logo az">AZ</div>
+          <div>
+            <div class="cert-name">AZ-900 <span class="cert-verify mono">↗ Verify</span></div>
+            <div class="cert-sub mono">Azure Fundamentals · Jan 2025</div>
+          </div>
+        </a>
+        <a class="cert-badge" href="https://learn.microsoft.com/en-us/users/evangeloskotsis-8289/credentials/certification/security-compliance-and-identity-fundamentals" target="_blank" rel="noopener">
+          <div class="cert-logo sc">SC</div>
+          <div>
+            <div class="cert-name">SC-900 <span class="cert-verify mono">↗ Verify</span></div>
+            <div class="cert-sub mono">Security, Compliance & Identity · Jul 2025</div>
+          </div>
+        </a>
+        <a class="cert-badge" href="https://www.credly.com/badges/1dae398f-d9a8-4c70-9afe-64e96d337bbd/public_url" target="_blank" rel="noopener">
+          <div class="cert-logo goog">G</div>
+          <div>
+            <div class="cert-name">Google Cybersecurity <span class="cert-verify mono">↗ Verify</span></div>
+            <div class="cert-sub mono">Professional Certificate · Mar 2024</div>
+          </div>
+        </a>
+        <a class="cert-badge" href="https://www.credly.com/badges/5d4648ea-616a-4595-9730-b77854734f66/public_url" target="_blank" rel="noopener">
+          <div class="cert-logo jamf">J</div>
+          <div>
+            <div class="cert-name">Jamf Certified Associate <span class="cert-verify mono">↗ Verify</span></div>
+            <div class="cert-sub mono">Jamf Pro · May 2025</div>
+          </div>
+        </a>
+        <div class="cert-badge upcoming">
+          <div class="cert-logo next">→</div>
+          <div>
+            <div class="cert-name">AZ-104 <span class="badge-pill">Upcoming</span></div>
+            <div class="cert-sub mono">Azure Administrator</div>
+          </div>
+        </div>
+        <div class="cert-badge upcoming">
+          <div class="cert-logo next">→</div>
+          <div>
+            <div class="cert-name">AZ-800 <span class="badge-pill">Upcoming</span></div>
+            <div class="cert-sub mono">Administering Windows Server Hybrid Core</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section class="section section-dark" id="experience">
+    <div class="section-header">
+      <span class="section-tag mono">02 /</span>
+      <h2 class="section-title">Experience</h2>
+    </div>
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <div class="timeline-date mono">Sep 2025 — Present</div>
+          <h3 class="timeline-role">System Administrator</h3>
+          <div class="timeline-company">Uni Systems S.A. – Piraeus Bank</div>
+          <p class="timeline-desc">
+            Administration and support of VMware vSphere/ESXi environments (VM creation, snapshots, cloning, monitoring).
+            Management of Citrix infrastructure for ~3,500 users (provisioning, troubleshooting, performance optimization).
+            Active Directory user provisioning/de-provisioning and Group Policy management.
+            Windows Server and Linux system administration (installation, patching, updates, troubleshooting).
+            Operational support for storage and system availability within established enterprise procedures.
+            Collaboration with infrastructure, networking, and security teams to maintain enterprise operations.
+          </p>
+          <div class="timeline-tags">
+            <span>VMware vSphere/ESXi</span><span>Citrix</span><span>Active Directory</span><span>Windows Server</span><span>Linux</span><span>Group Policy</span>
+          </div>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <div class="timeline-date mono">Dec 2024 — Sep 2025</div>
+          <h3 class="timeline-role">User Access Management / ISA & IT Support</h3>
+          <div class="timeline-company">AMPLUS S.A. – Optima Bank</div>
+          <p class="timeline-desc">
+            Managed user access rights across IT systems (Active Directory) to ensure security, compliance, and efficient operations.
+            Administered IAM processes including user provisioning, deprovisioning, and role-based access control (RBAC).
+            Supported MFA enrollment and troubleshooting, contributing to account security and user authentication workflows.
+            Collaborated with IT and cybersecurity teams on access-related security issues, supporting investigations and remediation.
+            Delivered technical support and training to end users, ensuring smooth operation of banking systems.
+          </p>
+          <div class="timeline-tags">
+            <span>Active Directory</span><span>IAM</span><span>RBAC</span><span>MFA</span><span>IT Support</span>
+          </div>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <div class="timeline-date mono">Oct 2023 — Nov 2024</div>
+          <h3 class="timeline-role">Information Technology System Engineer</h3>
+          <div class="timeline-company">Active Computer Systems S.A.</div>
+          <p class="timeline-desc">
+            Performed daily updates, patching, and backup operations across enterprise systems.
+            Provided technical and infrastructure support, troubleshooting hardware, software, and network issues.
+            Maintained up-to-date documentation of system configurations and processes.
+            Collaborated with cross-functional teams on project planning to ensure timely task completion.
+          </p>
+          <div class="timeline-tags">
+            <span>System Administration</span><span>Patching</span><span>Backup</span><span>IT Support</span><span>Documentation</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section" id="projects">
+    <div class="section-header">
+      <span class="section-tag mono">03 /</span>
+      <h2 class="section-title">Projects</h2>
+    </div>
+    <div class="projects-grid">
+
+      <div class="project-card featured">
+        <div class="project-header">
+          <div class="project-status mono">In Progress</div>
+          <div class="project-links">
+            <a href="https://github.com/EvanK95" target="_blank" class="project-link">GitHub →</a>
+          </div>
+        </div>
+        <h3 class="project-title">Azure Sentinel SIEM Lab</h3>
+        <p class="project-desc">
+          Building a cloud-native Security Operations Center environment using Microsoft Sentinel.
+          Includes custom KQL threat detection rules, log analytics workspaces, automated incident 
+          response playbooks (SOAR), and integration with Microsoft Defender for Endpoint.
+          Fully documented on GitHub with setup guides and detection rule explanations.
+        </p>
+        <div class="project-tags">
+          <span>Microsoft Sentinel</span><span>KQL</span><span>Azure</span><span>Log Analytics</span><span>SOAR</span><span>Defender</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-header">
+          <div class="project-status mono">In Progress</div>
+          <div class="project-links">
+            <a href="https://github.com/EvanK95" target="_blank" class="project-link">GitHub →</a>
+          </div>
+        </div>
+        <h3 class="project-title">Hybrid Identity Lab</h3>
+        <p class="project-desc">
+          Hands-on environment covering Entra Connect, hybrid AD/Azure setups, 
+          DNS, DHCP, Storage Replica, DFS, and Azure File Sync.
+          Built to prepare for AZ-800/AZ-104 and document real-world hybrid scenarios.
+        </p>
+        <div class="project-tags">
+          <span>Entra Connect</span><span>Azure File Sync</span><span>DFS</span><span>Hyper-V</span><span>Windows Server</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-header">
+          <div class="project-status mono">Planned</div>
+          <div class="project-links">
+            <a href="https://github.com/EvanK95" target="_blank" class="project-link">GitHub →</a>
+          </div>
+        </div>
+        <h3 class="project-title">Vulnerability Management Lab</h3>
+        <p class="project-desc">
+          Setting up a vulnerability scanning environment using Nessus Essentials and OpenVAS.
+          Covers asset discovery, scan configuration, risk prioritization, and remediation 
+          reporting — simulating a real enterprise vulnerability management workflow.
+        </p>
+        <div class="project-tags">
+          <span>Nessus Essentials</span><span>OpenVAS</span><span>CVE Analysis</span><span>Remediation</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-header">
+          <div class="project-status mono">Planned</div>
+          <div class="project-links">
+            <a href="https://github.com/EvanK95" target="_blank" class="project-link">GitHub →</a>
+          </div>
+        </div>
+        <h3 class="project-title">Splunk SIEM Lab</h3>
+        <p class="project-desc">
+          Deploying Splunk Free to ingest logs from multiple sources (Windows Event Logs, 
+          Syslog, network devices). Building custom dashboards, correlation searches, 
+          and alerts to detect suspicious activity — complementing the Azure Sentinel lab.
+        </p>
+        <div class="project-tags">
+          <span>Splunk</span><span>Log Ingestion</span><span>SPL</span><span>Dashboards</span><span>Alerting</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section section-dark" id="contact">
+    <div class="section-header">
+      <span class="section-tag mono">04 /</span>
+      <h2 class="section-title">Get In Touch</h2>
+    </div>
+    <div class="contact-wrapper">
+      <p class="contact-lead">
+        Open to conversations about cloud security, sysadmin roles, 
+        and cybersecurity opportunities. Let's connect.
+      </p>
+      <a href="mailto:vaggkot95@gmail.com" class="btn-primary btn-large">vaggkot95@gmail.com</a>
+      <div class="social-links">
+        <a href="https://www.linkedin.com/in/evangeloskotsis/" target="_blank" class="social-link">
+          <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+          LinkedIn
+        </a>
+        <a href="https://github.com/EvanK95" target="_blank" class="social-link">
+          <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+          GitHub
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <span class="mono">Evangelos Kotsis</span>
+      <span class="mono footer-copy">© 2025 — Built with purpose.</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
