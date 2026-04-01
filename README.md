@@ -8,7 +8,7 @@
 
 > Personal portfolio and CV website for Evangelos Kotsis — System Administrator with a focus on cloud infrastructure, identity management, and cybersecurity.
 
-🌐 **Live site:** [evank95.github.io/My-CV-Page](https://evank95.github.io/My-CV-Page/)
+🌐 **Live site:** [evangelos-kotsis.github.io/My-CV-Page](https://evangelos-kotsis.github.io/My-CV-Page/)
 
 ---
 
